@@ -57,14 +57,12 @@ If it's not install, you can easily install it as follows:
     ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- USAGE FEATURES -->
-
-## Import ##
-Once installed, users can import LogView into their Python scripts or Jupyter Notebooks:
+### Import ###
+Once installed, you can import LogView into their Python scripts or Jupyter Notebooks:
 ```python
 import logview
 ```
-
+<!-- USAGE FEATURES -->
 ## Key Features ##
 
 - Querying Logs: LogView allows users to execute queries on event logs to extract relevant information.
@@ -74,7 +72,9 @@ import logview
 - Result Visualization: LogView provides plugins to visualize multiple result sets and their overlaps.
 
 <!-- USAGE EXAMPLES -->
-## Examples ##
+## Usage Examples ##
+
+In the example below, we show how to create a _logview_ object for your analysis and to run your first query.
 
 ```python
 from logview.utils import LogViewBuilder
@@ -85,7 +85,9 @@ from logview.predicate import *
 query = Query('my_query', [EqToConstant('Activity', 'Send for Credit Collection')])
 result_set_query, complement_query = log_view.evaluate_query('traces_with_scc', log, query)
 ```
+_For more detailed examples, please refer to our *Notbooks* section and folder_
 
+<!-- NOTEBOOKS -->
 ## Notebooks
 For a detailed tutorial on how to use LogView and a case study on a real-life event log, please refer to the examples in the directory [notebooks](https://github.com/blindreview-logview123/logview/tree/main/notebooks)_
 
