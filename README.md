@@ -13,6 +13,8 @@ We present **LogView**, a framework that helps process analysts validate the res
 LogView keeps a record of the evaluated queries and results, and facilitates the comparison of different results with the intention of facilitating the analyst's understanding of the data.
 We have implemented it as a Python library to help you integrate it into your existing process mining environments.
 
+We provide an extensive tutorial and an analysis on the [Road Traffic Fine Management event log](https://data.4tu.nl/articles/dataset/Road_Traffic_Fine_Management_Process/12683249?file=24018146) in [notebooks](https://github.com/blindreview-logview123/logview/tree/main/notebooks
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -89,7 +91,7 @@ _For more detailed examples, please refer to our *Notbooks* section and folder_
 
 <!-- NOTEBOOKS -->
 ## Notebooks
-For a detailed tutorial on how to use LogView and a case study on a real-life event log, please refer to the examples in the directory [notebooks](https://github.com/blindreview-logview123/logview/tree/main/notebooks)
+For a detailed tutorial on how to use LogView and a case study on a real-life event log, please refer to the examples in our directory [notebooks](https://github.com/blindreview-logview123/logview/tree/main/notebooks)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
