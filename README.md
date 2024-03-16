@@ -9,13 +9,11 @@
 </div>
 
 ## About the project
-We present **LogView**, a framework that helps process analysts validate the results of their queries and incrementally improve their knowledge of a log as they analyze it. 
+We present **LogView**, a framework that helps process analysts validate the results of their queries and incrementally improve their knowledge of a log as they analyze it.
 LogView keeps a record of the evaluated queries and results, and facilitates the comparison of different results with the intention of facilitating the analyst's understanding of the data.
 We have implemented it as a Python library to help you integrate it into your existing process mining environments.
 
 We provide an extensive tutorial and an analysis on the [Road Traffic Fine Management event log](https://data.4tu.nl/articles/dataset/Road_Traffic_Fine_Management_Process/12683249?file=24018146) in [notebooks](https://github.com/blindreview-logview123/logview/tree/main/notebooks).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- GETTING STARTED -->
@@ -24,7 +22,7 @@ We provide an extensive tutorial and an analysis on the [Road Traffic Fine Manag
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-LogView can be installed on Python 3.9.x / 3.10.x / 3.11.x / 3.12.x. 
+LogView can be installed on Python 3.9.x / 3.10.x / 3.11.x / 3.12.x.
 
 This is an example of how to create a conda environment with python 3.10 in case you don't have one:
 *
@@ -35,7 +33,7 @@ This is an example of how to create a conda environment with python 3.10 in case
 
 ### Installation
 
-LogView hasn't been uploaded to the Python Package Index yet. 
+LogView hasn't been uploaded to the Python Package Index yet.
 However, there's no need to worry! We can easily guide you through installing it locally in just two simple steps.
 
 1. Clone the repo
@@ -43,7 +41,7 @@ However, there's no need to worry! We can easily guide you through installing it
    git clone https://github.com/blindreview-logview123/logview.git
    cd logview
    ```
-2. Install LogView 
+2. Install LogView
    ```sh
    python setup.py sdist bdist_wheel
    pip install .
@@ -52,12 +50,11 @@ However, there's no need to worry! We can easily guide you through installing it
 If you wish to execute the examples in the notebook files, please ensure that you have 'ipykernel' installed in your Python environment.
 If it's not install, you can easily install it as follows:
 
-* install `ipykernel` with pip 
+* install `ipykernel` with pip
     ```sh
     conda activate logview_env
     pip install ipykernel
     ```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Import ###
 Once installed, you can import LogView into their Python scripts or Jupyter Notebooks:
@@ -93,8 +90,6 @@ _For more detailed examples, please refer to our *Notbooks* section and folder_
 ## Notebooks
 For a detailed tutorial on how to use LogView and a case study on a real-life event log, please refer to the examples in our directory [notebooks](https://github.com/blindreview-logview123/logview/tree/main/notebooks)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -106,9 +101,7 @@ You can fork the repo and create a pull request. You can also simply open an iss
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-<p align="right">(<a href="#readme-top">back to top</a>)
 
 <!-- LICENSE -->
 ## License
 Distributed under the GPL-3.0 License. See `LICENSE.txt` for more information.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
