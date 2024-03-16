@@ -89,7 +89,7 @@ _For more detailed examples, please refer to our *Notbooks* section and folder_
 
 <!-- NOTEBOOKS -->
 ## Notebooks
-For a detailed tutorial on how to use LogView and a case study on a real-life event log, please refer to the examples in the directory [notebooks](https://github.com/blindreview-logview123/logview/tree/main/notebooks)_
+For a detailed tutorial on how to use LogView and a case study on a real-life event log, please refer to the examples in the directory [notebooks](https://github.com/blindreview-logview123/logview/tree/main/notebooks)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
